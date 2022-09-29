@@ -1,0 +1,7 @@
+<?php
+use \Drupal\Core\Url;
+
+function student_registration_page_attachments(array &$page) {
+ $page['#attached']['library'][] = 'student_registration/student_registration'; // modulename/libraryname
+ $page['#attached']['drupalSettings']['custom_variable'] = "AlertMessage";
+}

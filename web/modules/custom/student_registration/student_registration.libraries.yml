@@ -1,0 +1,18 @@
+student_registration:
+  footer: true;
+  js:
+    https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js: { external: true, preprocess: false }
+    js/student_registration.js: {}
+  css:
+
+    theme:
+        https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css: { external: true, preprocess: false }
+        css/student_registration.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui
+    - core/drupal    
+    - core/drupalSettings
+    - core/drupal.ajax
+    - core/drupal.dialog
+    - core/drupal.dialog.ajax

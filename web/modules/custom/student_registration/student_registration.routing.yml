@@ -1,0 +1,15 @@
+student_registration.student_form:
+  path: '/student-registration'
+  defaults:
+    _form: '\Drupal\student_registration\Form\StudentRegistration'
+    _title: 'Student Registration Form'
+  requirements:
+    _permission: 'access content'
+
+student_registration.student_data_form:
+  path: '/student-data'
+  defaults:
+    _form: '\Drupal\student_registration\Form\StudentData'
+    _title: 'Student Data Form'
+  requirements:
+    _permission: 'access content'
